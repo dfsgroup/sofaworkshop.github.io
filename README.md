@@ -1,2 +1,2 @@
 # sofaworkshop.github.io
-@copy; SofaWorkshop 2019
+&copy; SofaWorkshop 2019

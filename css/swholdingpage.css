@@ -1,0 +1,177 @@
+body {
+  margin:0 ;
+  font-family: sans-serif;
+}
+[v-cloak] {
+  display: none;
+}
+#holdingPage {
+  width:1366px;
+  margin:0 auto;
+}
+.content {
+  width:1024px;
+  height: 772px;
+  text-align: center;
+  position: relative;
+  margin:0 auto;
+  background: url(../images/sw_holding-page_background.jpg) no-repeat;
+
+}
+
+.innerContent {
+    width: 600px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    height: 380px;
+    position: absolute;
+    top:10px;
+    margin: 0 400px;
+}
+
+.callcopy {
+    width: 600px;
+
+    padding: 10px 10px;
+    height: 380px;
+    margin: 0 400px;
+    position: absolute;
+    top:220px;
+}
+
+.callcopy h1 {
+    font-size: 28px;
+    font-family:'URW Grotesk W05 Regular' ;
+    margin-top: -10px;
+}
+
+.callcopy p {
+    font-size: 16px;
+    font-family: 'URW Grotesk Pro Light W05 Rg';
+}
+
+.innerContent p {
+    font-size: 24px;
+    font-family: 'URW Grotesk Pro Light W05 Rg';
+    text-align: center;
+    color: #333;
+    margin: 0 0;
+}
+
+
+.closedToday {
+    position: absolute;
+    bottom: 94px;
+    color: red;
+    right: 130px;
+    font-size: 12px;
+    width: 200px;
+}
+
+.hidden {
+  display:none;
+}
+
+@media (max-width: 1365px) {
+  #holdingPage {
+    width:1024px;
+  }
+}
+
+  @media (max-width: 1023px) {
+    #holdingPage {
+      width:600px;
+    }
+    .content {
+      width: 600px;
+      height: 772px;
+      position: relative;
+      margin: 0 auto;
+    background: url(../images/sw_holding-page_background_mob.jpg) no-repeat;
+    }
+
+      
+.innerContent {
+    width: 560px;
+    margin: 0 20px;
+}
+
+.callcopy {
+    width: 600px;
+    margin: 0 20px;
+
+}
+}
+
+.ui-timepicker-wrapper {
+	overflow-y: auto;
+	max-height: 150px;
+	width: 6.5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	z-index: 10001;
+	margin: 0;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+	width: 13em;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-30,
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-60 {
+	width: 11em;
+}
+
+.ui-timepicker-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-timepicker-duration {
+	margin-left: 5px; color: #888;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: #888;
+}
+
+.ui-timepicker-list li {
+	padding: 3px 0 3px 5px;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	list-style: none;
+	margin: 0;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: #fff; color: #000;
+}
+
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: #1980EC; color: #fff;
+}
+
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: #ccc;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	color: #888;
+	cursor: default;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	background: #f2f2f2;
+}

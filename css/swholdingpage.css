@@ -89,14 +89,9 @@ body {
       margin: 0 auto;
     background: url(../images/sw_holding-page_background_mob.jpg) no-repeat;
     }
-
-    .callcopy p {
-    font-size: 12px;
-    font-family: 'URW Grotesk Pro Light W05 Rg';
-}
 	  
-	  .innerContent p {
-    font-size: 20px;
+    .innerContent p {
+    font-size: 12px;
     font-family: 'URW Grotesk Pro Light W05 Rg';
     text-align: center;
     color: #333;
